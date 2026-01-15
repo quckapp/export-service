@@ -1,5 +1,5 @@
 """
-QuikApp Export Service
+QuckApp Export Service
 
 Handles data export jobs and compliance report generation.
 """
@@ -26,7 +26,7 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(
-    title="QuikApp Export Service",
+    title="QuckApp Export Service",
     description="Data Export and Compliance Reports API",
     version="1.0.0",
     docs_url="/docs",

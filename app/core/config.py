@@ -13,7 +13,7 @@ class Settings(BaseSettings):
     PORT: int = 5015
 
     # Database
-    DATABASE_URL: str = "mysql+asyncmy://quikapp:quikapp@localhost:3306/quikapp_exports"
+    DATABASE_URL: str = "mysql+asyncmy://quckapp:quckapp@localhost:3306/quckapp_exports"
 
     # Redis
     REDIS_HOST: str = "localhost"
@@ -24,7 +24,7 @@ class Settings(BaseSettings):
     AWS_ACCESS_KEY_ID: str = ""
     AWS_SECRET_ACCESS_KEY: str = ""
     AWS_REGION: str = "us-east-1"
-    S3_BUCKET: str = "quikapp-exports"
+    S3_BUCKET: str = "quckapp-exports"
     S3_PREFIX: str = "exports/"
 
     # Local Storage (fallback)
