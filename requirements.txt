@@ -7,7 +7,7 @@ pydantic-settings==2.1.0
 # Database
 sqlalchemy==2.0.25
 pymysql==1.1.0
-cryptography==42.0.2
+cryptography==46.0.6
 asyncmy==0.2.9
 
 # Redis (for job queue)
